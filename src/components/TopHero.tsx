@@ -1,3 +1,7 @@
+import type { ReactNode } from 'react';
+import BankCardSvg from './icons/BankCard';
+import SpeedSvg from './icons/Sped';
+
 const links: {
   name: string;
   href: string;
@@ -9,11 +13,14 @@ const links: {
 ];
 const stats: {
   name: string;
-  value: string;
+  value: ReactNode;
 }[] = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
+  { name: 'Якість', value: <span>5 &#9734;</span> },
+  {
+    name: 'Економія',
+    value: <BankCardSvg height={32} width="auto" style={{ width: 'auto' }} />,
+  },
+  { name: 'Шидкість', value: <SpeedSvg fill="white" height={32} /> },
   { name: 'На звʼязку', value: '24/7' },
 ];
 

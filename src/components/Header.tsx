@@ -2,8 +2,9 @@
 
 import { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
+import XMarkIcon from '@/src/components/icons/XMarkIcon';
+import Bars3Icon from '@/src/components/icons/Bars3Icon';
 
 interface HeaderLink {
   title: string;

@@ -7,29 +7,6 @@ import Header from '@/src/components/Header';
 //   title: 'Доставка ватажу з Європи',
 // };
 
-const links: {
-  name: string;
-  href: string;
-}[] = [
-  { name: 'Open roles', href: '#' },
-  { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
-];
-const stats: {
-  name: string;
-  value: string;
-}[] = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
-];
-
-interface TopHeroProps {
-  title: string;
-}
-
 export default function Home() {
   return (
     <>
