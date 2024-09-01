@@ -18,7 +18,7 @@ const stats: {
   { name: 'Якість', value: <span>5 &#9734;</span> },
   {
     name: 'Економія',
-    value: <BankCardSvg height={32} width="auto" style={{ width: 'auto' }} />,
+    value: <BankCardSvg height={32} style={{ width: 'auto' }} />,
   },
   { name: 'Шидкість', value: <SpeedSvg fill="white" height={32} /> },
   { name: 'На звʼязку', value: '24/7' },
