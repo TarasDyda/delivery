@@ -5,6 +5,7 @@ import type { Option } from '@/src/components/Select';
 import { Formik, Form } from 'formik';
 import Input from '@/src/components/formikComponents/Input';
 import TextArea from '@/src/components/formikComponents/TextArea';
+import validationSchema from '@/src/components/getInTouch/validationSchema';
 
 const subjectOptions: Option[] = [
   {
@@ -58,8 +59,14 @@ const GetInTouchSection = () => {
           безкоштовну консультацію.
         </p>
       </div>
-      <Formik initialValues={initialValues} onSubmit={handleFormSubmit}>
-        <Form className="mx-auto mt-8 max-w-xl sm:mt-12">
+      <Formik
+        initialValues={initialValues}
+        onSubmit={handleFormSubmit}
+        validateOnChange={false}
+        validateOnBlur={true}
+        validationSchema={validationSchema}
+      >
+        <Form className="mx-auto mt-8 max-w-xl sm:mt-12" noValidate>
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <Input name="firstName" label="Імʼя" />
             <div>

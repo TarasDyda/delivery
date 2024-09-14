@@ -3,7 +3,7 @@
 import TopHero from '@/src/components/TopHero';
 import Header from '@/src/components/Header';
 import FeatureSection from '@/src/components/FeatureSection';
-import GetInTouch from '@/src/components/GetInTouch';
+import GetInTouch from '@/src/components/getInTouch';
 
 // const SEOData: SEOProps = {
 //   title: 'Доставка ватажу з Європи',

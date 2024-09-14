@@ -5,7 +5,11 @@ export interface InputProps {
   label: string;
   value: string;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  error?: string;
 }
+
+const errorClassName =
+  'bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm rounded-lg focus:ring-red-500 dark:bg-gray-700 focus:border-red-500 block w-full p-2.5 dark:text-red-500 dark:placeholder-red-500 dark:border-red-500';
 
 const Input = (props: InputProps) => {
   return (
@@ -23,8 +27,9 @@ const Input = (props: InputProps) => {
           value={props.value}
           onChange={props.onChange}
           type="text"
-          className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-400 sm:text-sm sm:leading-6"
+          className={`block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-400 sm:text-sm sm:leading-6 ${props.error ? errorClassName : ''}`}
         />
+        <span className="mt-2 text-sm text-red-500">{props.error}</span>
       </div>
     </div>
   );
