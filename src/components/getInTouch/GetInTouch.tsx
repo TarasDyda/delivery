@@ -31,6 +31,7 @@ interface FormValues {
   firstName: string;
   lastName: string;
   phoneNumber: string;
+  email: '';
   additionalInfo: string;
 }
 
@@ -39,6 +40,7 @@ const initialValues: FormValues = {
   firstName: '',
   lastName: '',
   phoneNumber: '',
+  email: '',
   additionalInfo: '',
 };
 
@@ -80,7 +82,14 @@ const GetInTouchSection = () => {
               />
             </div>
             <div className="sm:col-span-2">
-              <Input name="phoneNumber" label="Номер телефону" />
+              <Input name="email" label="Номер телефону" />
+            </div>
+            <div className="sm:col-span-2">
+              <Input
+                name="phoneNumber"
+                label="Електронна адреса"
+                hint="не обовʼязково"
+              />
             </div>
             <div className="sm:col-span-2">
               <TextArea name="additionalInfo" label="Додаткова інформація" />

@@ -6,6 +6,7 @@ export interface InputProps {
   value: string;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
   error?: string;
+  hint?: string;
 }
 
 const errorClassName =
@@ -19,6 +20,11 @@ const Input = (props: InputProps) => {
         className="block text-sm font-semibold leading-6 text-gray-900"
       >
         {props.label}
+        {props.hint && (
+          <span className="text-sm leading-6 text-slate-400">
+            ({props.hint})
+          </span>
+        )}
       </label>
       <div className="mt-2.5">
         <input
