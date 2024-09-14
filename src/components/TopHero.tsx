@@ -7,9 +7,9 @@ const links: {
   name: string;
   href: string;
 }[] = [
-  { name: 'Доставка в Україну', href: '#' },
-  { name: 'Доставка в Європу', href: '#' },
-  { name: 'Замовити послугу', href: '#' },
+  { name: 'Доставка в Україну', href: '#contact-me' },
+  { name: 'Доставка в Європу', href: '#contact-me' },
+  { name: 'Замовити послугу', href: '#contact-me' },
   { name: 'Наші контакти', href: '#' },
 ];
 const stats: {

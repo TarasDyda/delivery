@@ -45,13 +45,16 @@ const GetInTouchSection = () => {
   const handleFormSubmit = () => {};
 
   return (
-    <div className="isolate bg-slate-50 px-6 py-12 sm:py-16 lg:px-8">
+    <div
+      className="isolate bg-slate-50 px-6 py-12 sm:py-16 lg:px-8"
+      id="contact-me"
+    >
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Звʼяжіться зі мною
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Піля заповення всіх полів з вами звʼяжеться менеджер і надасть
+          Після заповення всіх полів з вами звʼяжеться менеджер і надасть
           безкоштовну консультацію.
         </p>
       </div>

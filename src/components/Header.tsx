@@ -19,15 +19,15 @@ const headerLinks: HeaderLink[] = [
   },
   {
     title: 'Доставка в Україну',
-    href: '#',
+    href: '#contact-me',
   },
   {
     title: 'Доставка в Європу',
-    href: '#',
+    href: '#contact-me',
   },
   {
     title: 'Замовити послуги',
-    href: '#',
+    href: '#contact-me',
   },
 ];
 
