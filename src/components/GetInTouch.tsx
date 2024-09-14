@@ -1,7 +1,5 @@
 'use client';
 
-// import { ChevronDownIcon } from '@heroicons/react/20/solid';
-// import { Field, Label, Switch } from '@headlessui/react';
 import Select from '@/src/components/formikComponents/Select';
 import type { Option } from '@/src/components/Select';
 import { Formik, Form } from 'formik';
