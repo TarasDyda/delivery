@@ -2,6 +2,7 @@
 // import type { SEOProps } from '@/src/components/SEO';
 import TopHero from '@/src/components/TopHero';
 import Header from '@/src/components/Header';
+import FeatureSection from '@/src/components/FeatureSection';
 
 // const SEOData: SEOProps = {
 //   title: 'Доставка ватажу з Європи',
@@ -17,6 +18,7 @@ export default function Home() {
           description="Доставимо ваші вантажі з/в Європу швидко і якісно. Цінуємо час клієнтів
             і надаємо послуги найвищого рівня."
         />
+        <FeatureSection />
       </main>
     </>
   );

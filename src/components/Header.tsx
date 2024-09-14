@@ -15,7 +15,7 @@ interface HeaderLink {
 const headerLinks: HeaderLink[] = [
   {
     title: 'Послуги',
-    href: '#',
+    href: '#about-us',
   },
   {
     title: 'Доставка в Україну',
