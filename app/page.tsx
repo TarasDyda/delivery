@@ -4,6 +4,7 @@ import TopHero from '@/src/components/TopHero';
 import Header from '@/src/components/Header';
 import FeatureSection from '@/src/components/FeatureSection';
 import GetInTouch from '@/src/components/getInTouch';
+import ContactUs from '@/src/components/ContactUs';
 
 // const SEOData: SEOProps = {
 //   title: 'Доставка ватажу з Європи',
@@ -21,6 +22,7 @@ export default function Home() {
         />
         <FeatureSection />
         <GetInTouch />
+        <ContactUs />
       </main>
     </>
   );

@@ -10,7 +10,7 @@ const links: {
   { name: 'Доставка в Україну', href: '#contact-me' },
   { name: 'Доставка в Європу', href: '#contact-me' },
   { name: 'Замовити послугу', href: '#contact-me' },
-  { name: 'Наші контакти', href: '#' },
+  { name: 'Наші контакти', href: '#contact-us' },
 ];
 const stats: {
   name: string;
