@@ -102,7 +102,7 @@ export const pages: PageData[] = [
   },
   {
     ...sharedMetadata,
-    slug: 'cargo-export',
+    slug: 'export-to-europe',
     title: 'Вантажоперевезення в Європу',
     description:
       'Швидкі, надійні та дешеві вантажоперевезення вантажів в Європу',
@@ -115,7 +115,7 @@ export const pages: PageData[] = [
   },
   {
     ...sharedMetadata,
-    slug: 'cargo-export-by-trucks',
+    slug: 'export-to-europe-by-truck',
     title: 'Вантажоперевезення в Європу фурою',
     description:
       'Швидкі, надійні та дешеві вантажоперевезення вантажів в Європу фурою',
@@ -128,7 +128,7 @@ export const pages: PageData[] = [
   },
   {
     ...sharedMetadata,
-    slug: 'cargo-export',
+    slug: 'import-to-ukraine',
     title: 'Вантажоперевезення з України',
     description:
       'Швидкі, надійні та дешеві вантажоперевезення вантажів з України',
@@ -141,7 +141,7 @@ export const pages: PageData[] = [
   },
   {
     ...sharedMetadata,
-    slug: 'cargo-export-by-trucks',
+    slug: 'import-to-ukraine-by-truck',
     title: 'Вантажоперевезення з України фурою',
     description:
       'Швидкі, надійні та дешеві вантажоперевезення вантажів з України фурою',
@@ -154,7 +154,7 @@ export const pages: PageData[] = [
   },
   {
     ...sharedMetadata,
-    slug: 'cargo-export',
+    slug: 'import-from-poland',
     title: 'Доставка вантажу з Польщі',
     description: 'Швидка, надійна та дешева доставки вантажу з Польщі',
     openGraph: {
@@ -165,7 +165,7 @@ export const pages: PageData[] = [
   },
   {
     ...sharedMetadata,
-    slug: 'cargo-export-by-trucks',
+    slug: 'import-from-poland-by-truck',
     title: 'Доставка вантажу з Польщі фурою',
     description: 'Швидка, надійна та дешева доставки вантажу з Польщі фурою',
     openGraph: {
@@ -176,7 +176,7 @@ export const pages: PageData[] = [
   },
   {
     ...sharedMetadata,
-    slug: 'cargo-export',
+    slug: 'export-to-poland',
     title: 'Доставка вантажу в Польщу',
     description: 'Швидка, надійна та дешева доставки вантажу в Польщу',
     openGraph: {
@@ -187,7 +187,7 @@ export const pages: PageData[] = [
   },
   {
     ...sharedMetadata,
-    slug: 'cargo-export-by-trucks',
+    slug: 'export-to-poland-by-truck',
     title: 'Доставка вантажу в Польщу фурою',
     description: 'Швидка, надійна та дешева доставки вантажу в Польщу фурою',
     openGraph: {
