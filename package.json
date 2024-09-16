@@ -9,7 +9,7 @@
     "local-start": "npm run build && npm run start",
     "lint": "next lint",
     "compile": "tsc",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap --config next-sitemap.config.mjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.3",
