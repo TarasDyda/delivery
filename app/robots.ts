@@ -4,8 +4,7 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
-      allow: '/',
-      disallow: '',
+      disallow: '/api/*/*',
     },
     sitemap: 'https://www.dostavka-gruziv.com/sitemap.xml',
   };
