@@ -118,11 +118,11 @@ const GetInTouchSection = () => {
                 />
               </div>
               <div className="sm:col-span-2">
-                <Input name="email" label="Номер телефону" />
+                <Input name="phoneNumber" label="Номер телефону" />
               </div>
               <div className="sm:col-span-2">
                 <Input
-                  name="phoneNumber"
+                  name="email"
                   label="Електронна адреса"
                   hint="не обовʼязково"
                 />
